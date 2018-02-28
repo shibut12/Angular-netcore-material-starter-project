@@ -22,8 +22,7 @@ namespace netcore_ng_material
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseDefaultFiles();
-            app.UseStaticFiles();
+            app.UseFileServer();
         }
     }
 }
