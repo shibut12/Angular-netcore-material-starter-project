@@ -12,4 +12,8 @@
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />
   </ItemGroup>
 
+  <Target Name="AngularbBuild" BeforeTargets="Build">
+    <Exec Command="ng build"/>
+  </Target>
+
 </Project>
