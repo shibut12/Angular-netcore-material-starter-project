@@ -1,8 +1,9 @@
 language: csharp
-dist: trusty
+dist: xenial
 mono: none
 dotnet: 2.0.0
 script:
+ - npm i -g npm
  - npm install -g typescript
  - npm cache verify
  - npm install -g @angular/cli
