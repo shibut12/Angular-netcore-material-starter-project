@@ -4,6 +4,7 @@ mono: none
 dotnet: 2.0.0
 script:
  - npm i -g npm
+ - npm i -g webpack
  - npm install -g typescript
  - npm cache verify
  - npm install -g @angular/cli
