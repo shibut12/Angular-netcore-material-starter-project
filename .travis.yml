@@ -1,11 +1,13 @@
 language: csharp
-dist: trusty
+dist: xenial
 mono: none
 dotnet: 2.0.0
 script:
- - npm install -g typescript@2.4.2
+ - npm i -g npm
+ - npm i -g webpack
+ - npm install -g typescript
  - npm cache verify
- - npm install -g @angular/cli@1.5.3
+ - npm install -g @angular/cli
  - npm install -g yarn
  - npm install
  - dotnet restore --verbosity m
