@@ -12,4 +12,4 @@ git clone https://github.com/shibut12/Angular-netcore-material-starter-project.g
 cd Angular-netcore-material-starter-project
 dotnet restore
 dotnet run --server.urls http://0.0.0.0:5001 # or any desired port number
-```
+``` 
